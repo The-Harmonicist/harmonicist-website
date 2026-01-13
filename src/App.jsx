@@ -1,9 +1,9 @@
 import './App.css'
 import Hero from './Hero'
-import NavBar from './navBar'
+import NavBar from './NavBar'
 import About from './About'
 import Contact from './Contact'
-import Music from './music'
+import Music from './Music'
 import Footer from './Footer'
 
 function App() {
