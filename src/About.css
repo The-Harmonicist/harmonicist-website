@@ -1,0 +1,25 @@
+.aboutMe {
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    background-color: black;
+}
+
+.aboutMe h2{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.aboutMe p {
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.angel-img {
+    max-width: 500px;
+    border-radius: 10px;
+    margin: 20px auto;
+}

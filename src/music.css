@@ -1,0 +1,19 @@
+.music {
+    padding: 60px 20px;
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+.music h2 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.albums-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
