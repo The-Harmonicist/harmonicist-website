@@ -1,4 +1,4 @@
-import './contact.css'
+import './Contact.css'
 import { FaSpotify, FaYoutube, FaFacebook, FaInstagram, FaTiktok, FaXTwitter, FaSoundcloud, FaSteam, FaDiscord } from 'react-icons/fa6'
 export default function Contact (){
     return (
