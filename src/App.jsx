@@ -3,7 +3,7 @@ import Hero from './Hero'
 import NavBar from './NavBar'
 import About from './About'
 import Contact from './Contact'
-import Music from './Music'
+import Music from './music'
 import Footer from './Footer'
 
 
