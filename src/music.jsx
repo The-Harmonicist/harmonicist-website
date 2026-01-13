@@ -40,7 +40,41 @@ export default function Music (props) {
     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
     loading="lazy"
 ></iframe>
+<iframe 
+    data-testid="embed-iframe" 
+    style={{borderRadius: '12px'}} 
+    src="https://open.spotify.com/embed/playlist/17NVGMDvSyycVIq5siAIm2?utm_source=generator&theme=0" 
+    width="100%" 
+    height="352" 
+    frameBorder={0}
+    allowFullScreen
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+    loading="lazy"
+></iframe>
+<iframe 
+    data-testid="embed-iframe" 
+    style={{borderRadius: '12px'}} 
+    src="https://open.spotify.com/embed/playlist/1YZrwS3wUil58qcKHqoPep?utm_source=generator" 
+    width="100%" 
+    height="352" 
+    frameBorder={0}
+    allowFullScreen
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+    loading="lazy"
+></iframe>
+<iframe 
+    data-testid="embed-iframe" 
+    style={{borderRadius: '12px'}} 
+    src="https://open.spotify.com/embed/playlist/72Duc1d1lZOl19NY23gL1U?utm_source=generator" 
+    width="100%" 
+    height="352" 
+    frameBorder={0}
+    allowFullScreen
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+    loading="lazy"
+></iframe>
 </div>
+
         </section>
     )
 }
