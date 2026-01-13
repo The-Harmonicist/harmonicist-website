@@ -23,3 +23,31 @@
     border-radius: 10px;
     margin: 20px auto;
 }
+
+@media (max-width: 480px) {
+  .about-section {
+    padding: 3rem 1.25rem;
+    gap: 2rem;
+  }
+
+  .about-text {
+    line-height: 1.75;
+  }
+}
+
+/* DESKTOP LAYOUT — side‑by‑side */
+@media (min-width: 900px) {
+  .about-section {
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .about-text {
+    max-width: 50%;
+  }
+
+  .about-image {
+    max-width: 380px;
+  }
+}

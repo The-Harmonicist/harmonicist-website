@@ -1,18 +1,51 @@
 .navBar {
-  padding: 20px;
-  position: sticky;
-  top: 0;
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 100;
 }
+
 .navBar ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 15px;
     margin: 0;
-    padding:0;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
 .navBar li {
     cursor: pointer;
     color: aliceblue;
+    font-size: 0.9rem;
 }
 
-.navBar li:hover {color: gold; }
+.navBar li:hover {
+    color: gold;
+}
+
+@media (max-width: 768px) {
+    .navBar ul {
+        gap: 10px;
+    }
+    
+    .navBar li {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .navBar {
+        padding: 10px 15px;
+    }
+    
+    .navBar ul {
+        gap: 8px;
+    }
+    
+    .navBar li {
+        font-size: 0.7rem;
+    }
+}
