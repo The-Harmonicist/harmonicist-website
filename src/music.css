@@ -36,6 +36,14 @@
     }
 }
 
+.discovered-on-container {
+    align-content: center;
+}
+
+.discovered-on-container h1 {
+    align-content: end;
+}
+
 /* Tablet and mid-size phones */
 @media (max-width: 768px) {
     .music h2 {
@@ -47,3 +55,19 @@
         gap: 25px;
     }
 }
+
+    .discovered-on-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 40px auto 0 auto;
+}
+    
+    @media (max-width: 768px) {
+    .discovered-on-container {
+           grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0 10px;
+    }
+    }

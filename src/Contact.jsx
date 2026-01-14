@@ -1,5 +1,6 @@
 import './Contact.css'
 import { FaSpotify, FaYoutube, FaFacebook, FaInstagram, FaTiktok, FaXTwitter, FaSoundcloud, FaSteam, FaDiscord } from 'react-icons/fa6'
+import imageName from './assets/The-Harmonicist.png'
 export default function Contact (){
     return (
         <section className='contact'>
@@ -15,6 +16,7 @@ export default function Contact (){
             <a href='https://steamcommunity.com/id/THarmonicist' target='_blank'><FaSteam /></a>
             <a href='https://discordapp.com/users/the_harmonicist' target='_blank'><FaDiscord /></a>
             </div>
+            <img className='contact-img' src={imageName} alt='harmonica' />
         </section>
     )
 }

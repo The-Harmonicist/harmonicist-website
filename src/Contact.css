@@ -36,3 +36,17 @@
 .social-links a:nth-child(7) { color: #FF5500; } /* SoundCloud orange */
 .social-links a:nth-child(8) { color: #171A21; } /* Steam dark */
 .social-links a:nth-child(9) { color: #5865F2; } /* Discord purple */
+
+.contact-img {
+    max-width: 1000px;
+    width: 90%;
+    border-radius: 10%;
+    margin: 40px auto 0;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .contact-img {
+        max-width: 600px;
+    }
+}
