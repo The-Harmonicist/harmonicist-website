@@ -3,7 +3,7 @@ import { FaSpotify, FaYoutube, FaFacebook, FaInstagram, FaTiktok, FaXTwitter, Fa
 import imageName from './assets/The-Harmonicist.png'
 export default function Contact (){
     return (
-        <section className='contact'>
+        <section className='contact' id="contact">
             <h2>Connect With Me</h2>
             <div className='social-links'>
             <a href='https://open.spotify.com/artist/0lVjh4CmJqd1OvhfnSTtIH?si=MiIP7dacR7O2THpFuamuTQ' target='_blank'><FaSpotify /></a>

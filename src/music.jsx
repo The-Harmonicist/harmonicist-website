@@ -2,7 +2,7 @@ import './music.css'
 
 export default function Music (props) {
     return (
-        <section className='music'>
+        <section className='music' id="music">
             <h2>
                 My Music:
             </h2>

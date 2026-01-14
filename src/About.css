@@ -46,3 +46,7 @@
         max-width: 280px;
     }
 }
+
+html {
+  scroll-behavior: smooth;
+}

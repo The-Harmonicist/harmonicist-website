@@ -18,7 +18,7 @@ export default function Hero (){
 
     return (
         
-        <div className="hero">
+        <div className="hero" id="home">
             <div className="hero-background" style={{backgroundImage: `url(${images[currentIndex]})`}}></div>
             <div className="hero-content">
                 <h1>The Harmonicist</h1>

@@ -49,3 +49,12 @@
         font-size: 0.7rem;
     }
 }
+
+.navBar a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.navBar a:hover {
+    color: gold;
+}
