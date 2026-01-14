@@ -9,7 +9,7 @@ export default function NavBar (){
                <li><a href='#about'>About</a></li>
                 <li><a href='#contact'>Social Media</a></li>
                 <li><a href='#store'>Shop</a></li>
-                <li><a href='#tabs'>Tabs/Custom Music Requests</a></li>
+                <li><a href='#tabs'>Request [Tabs/Music/Sessions]</a></li>
                 
             </ul>
         </nav>

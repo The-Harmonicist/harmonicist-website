@@ -5,6 +5,7 @@ import About from './About'
 import Contact from './Contact'
 import Music from './music'
 import Footer from './Footer'
+import Order from './Order'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       < Hero />
       <Music />
       <About />
+      <Order />
         <Contact />
         <Footer />
      
