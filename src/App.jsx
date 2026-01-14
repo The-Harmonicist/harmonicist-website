@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
        <NavBar />
-      < Hero/>
+      < Hero />
       <Music />
       <About />
         <Contact />

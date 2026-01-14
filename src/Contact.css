@@ -50,3 +50,38 @@
         max-width: 600px;
     }
 }
+
+.business-section {
+    margin: 60px auto 0 auto; /* Change this line */
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+.business-section h3 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.business-section p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: white;
+}
+
+.business-section a {
+    color: gold;
+    text-decoration: none;
+}
+
+.business-section a:hover {
+    text-decoration: underline;
+}
+
+.business-section a svg {
+    font-size: 6rem;
+    vertical-align: middle;
+    color: #1DBF73; /* Fiverr green */
+}
