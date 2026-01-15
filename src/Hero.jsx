@@ -22,7 +22,7 @@ export default function Hero (){
             <div className="hero-background" style={{backgroundImage: `url(${images[currentIndex]})`}}></div>
             <div className="hero-content">
                 <h1>The Harmonicist</h1>
-                <p>Music Artist</p> 
+                <p>Indie Musician | Music Producer | Multimedia Artist | Web Developer </p> 
                 <h2>Welcome to the Harmonicist's World</h2>
             </div>
         </div>
