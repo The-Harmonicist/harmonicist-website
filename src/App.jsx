@@ -6,6 +6,7 @@ import Contact from './Contact'
 import Music from './music'
 import Footer from './Footer'
 import Order from './Order'
+import { Analytics } from "@vercel/analytics/react"
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
       <Order />
         <Contact />
         <Footer />
-     
+        <Analytics />
     </div>
   )
 }
